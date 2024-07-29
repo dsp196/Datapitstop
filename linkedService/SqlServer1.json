@@ -1,5 +1,6 @@
 {
 	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "SqlServer",
@@ -9,14 +10,10 @@
 			"encrypt": "mandatory",
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
-			"userName": "DEEP",
+			"userName": "sa",
 			"password": {
-				"type": "AzureKeyVaultSecret",
-				"store": {
-					"referenceName": "AzureKeyVault1",
-					"type": "LinkedServiceReference"
-				},
-				"secretName": "password"
+				"type": "SecureString",
+				"value": "**********"
 			}
 		},
 		"connectVia": {
