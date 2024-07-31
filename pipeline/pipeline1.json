@@ -22,7 +22,7 @@
 						"partitionOption": "None"
 					},
 					"dataset": {
-						"referenceName": "SQL_F1_tables",
+						"referenceName": "SQLTable",
 						"type": "DatasetReference"
 					},
 					"firstRowOnly": false
@@ -33,7 +33,7 @@
 				"type": "ForEach",
 				"dependsOn": [
 					{
-						"activity": "look for all the tables ",
+						"activity": "look for all the tables",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -42,7 +42,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('look for all the tables ').output.value",
+						"value": "@activity('look for all the tables').output.value",
 						"type": "Expression"
 					},
 					"activities": [
@@ -62,7 +62,7 @@
 								"source": {
 									"type": "SqlServerSource",
 									"sqlReaderQuery": {
-										"value": "@{concat('SELECT * FROM ',item().SchemaName, '.',item().TableName)}",
+										"value": "@{concat('SELECT * FROM ',item().SchemaName,'.',item().TableName)}",
 										"type": "Expression"
 									},
 									"queryTimeout": "02:00:00",
@@ -71,8 +71,7 @@
 								"sink": {
 									"type": "ParquetSink",
 									"storeSettings": {
-										"type": "AzureBlobFSWriteSettings",
-										"copyBehavior": "FlattenHierarchy"
+										"type": "AzureBlobFSWriteSettings"
 									},
 									"formatSettings": {
 										"type": "ParquetWriteSettings"
@@ -90,7 +89,7 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "SqlServerCopy",
+									"referenceName": "SQLServerCopy",
 									"type": "DatasetReference"
 								}
 							],
