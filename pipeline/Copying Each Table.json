@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "Copying Each Table",
 	"properties": {
 		"activities": [
 			{
@@ -22,7 +22,7 @@
 						"partitionOption": "None"
 					},
 					"dataset": {
-						"referenceName": "SQLTable",
+						"referenceName": "SqlServerCopy",
 						"type": "DatasetReference"
 					},
 					"firstRowOnly": false
@@ -89,7 +89,7 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "SQLServerCopy",
+									"referenceName": "SqlServerCopy",
 									"type": "DatasetReference"
 								}
 							],
