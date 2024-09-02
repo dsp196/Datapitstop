@@ -11,6 +11,9 @@
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://pitstopdatalake.dfs.core.windows.net/"
 		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0801-231122-3wvxg7xb"
+		},
 		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"value": "https://datapitstop-kv.vault.azure.net/"
 		},
@@ -22,9 +25,6 @@
 		},
 		"SqlServer1_properties_typeProperties_userName": {
 			"value": "sa"
-		},
-		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
-			"value": "0801-231122-3wvxg7xb"
 		},
 		"containerUri": {
 			"value": ""
