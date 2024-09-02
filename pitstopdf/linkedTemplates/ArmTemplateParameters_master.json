@@ -23,6 +23,9 @@
 		"SqlServer1_properties_typeProperties_userName": {
 			"value": "sa"
 		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0801-231122-3wvxg7xb"
+		},
 		"containerUri": {
 			"value": ""
 		},
