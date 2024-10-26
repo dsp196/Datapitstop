@@ -1,0 +1,9 @@
+{
+	"name": "pitstopdf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f64454f9-e4f2-4e39-963d-cfc86a2b4633",
+		"tenantId": "967b6a32-56d3-4127-af85-87bcb6792973"
+	}
+}
