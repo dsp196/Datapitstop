@@ -3,24 +3,21 @@
 This project demonstrates a complete **ETL workflow using Lakehouse Architecture** on Azure. It integrates multiple Azure services to process Formula 1 data, transforming it into meaningful insights through **interactive Power BI dashboards**.
 
 ## 📁 Table of Contents
-- [Project Overview](#project-overview)
-- [Architecture](#architecture)
-- [Key Tools and Technologies](#key-tools-and-technologies)
-- [Pipelines and Workflow](#pipelines-and-workflow)
-- [Screenshots](#screenshots)
-  - [Power BI Dashboard Pages](#power-bi-dashboard-pages)
-- [Video Presentation](#video-presentation)
-- [Repository Structure](#repository-structure)
-- [How to Use](#how-to-use)
-- [Sample Queries](#sample-queries)
-- [Achievements](#achievements)
-- [Contact](#contact)
+- [📋 Project Overview](#-project-overview)
+- [🏗️ Architecture](#️-architecture)
+- [⚙️ Key Tools and Technologies](#️-key-tools-and-technologies)
+- [🔄 Pipelines and Workflow](#-pipelines-and-workflow)
+- [🖼️ Screenshots](#️-screenshots)
+  - [📊 Power BI Dashboard Pages](#️-power-bi-dashboard-pages)
+- [🎥 Video Presentation](#-video-presentation)
+- [📂 Repository Structure](#-repository-structure)
+- [📧 Contact](#-contact)
 
 ---
 
 ## 📋 Project Overview
 
-This project follows the **Lakehouse Architecture** using data from multiple Formula 1 seasons to provide insights into driver and constructor performance. The dataset is sourced from **[Kaggle Formula 1 Data](<your-dataset-link>)**.
+This project follows the **Lakehouse Architecture** using data from multiple Formula 1 seasons to provide insights into driver and constructor performance. The dataset is sourced from **[Kaggle Formula 1 Data](https://www.kaggle.com/datasets/melissamonfared/formula-1/data)**.
 
 1. **Bronze Layer**: Ingest raw data from **on-premise SQL Server** to Azure Data Lake Gen 2 using **Azure Data Factory (ADF)**.
 2. **Silver Layer**: Clean and transform the data using **Azure Databricks** (Apache Spark).
@@ -68,19 +65,19 @@ This project follows the **Lakehouse Architecture** using data from multiple For
 
 Below are individual pages from the Power BI dashboard, each focusing on specific insights:
 
-1. **Driver Performance Overview**
+1. **Driver Performance Overview**  
    ![Driver Performance](images/powerbi_driver_performance.png)
 
-2. **Constructor Analysis**
+2. **Constructor Analysis**  
    ![Constructor Analysis](images/powerbi_constructor_analysis.png)
 
-3. **Circuit Insights**
+3. **Circuit Insights**  
    ![Circuit Insights](images/powerbi_circuit_insights.png)
 
-4. **Seasonal Trends**
+4. **Seasonal Trends**  
    ![Seasonal Trends](images/powerbi_seasonal_trends.png)
 
-5. **Pit Stop Efficiency**
+5. **Pit Stop Efficiency**  
    ![Pit Stop Efficiency](images/powerbi_pitstop_efficiency.png)
 
 Feel free to explore each page’s specific metrics and KPIs.
