@@ -10,7 +10,6 @@ This project demonstrates a complete **ETL workflow using Lakehouse Architecture
 - [🖼️ Screenshots](#️-screenshots)
   - [📊 Power BI Dashboard Pages](#️-power-bi-dashboard-pages)
 - [🎥 Video Presentation](#-video-presentation)
-- [📂 Repository Structure](#-repository-structure)
 - [📧 Contact](#-contact)
 
 ---
@@ -130,17 +129,13 @@ Feel free to explore each page’s specific metrics and KPIs.
 
 ## 🎥 Video Presentation
 
-Click the image below to view the video
+Click the image below to view or download the video
 
 [![Project Walkthrough](assets/Thumbnail.jpg)](https://github.com/dsp196/Datapitstop/raw/refs/heads/main/assets/Updated_dashboard_video%20-%20Made%20with%20Clipchamp.mp4)
 
 
-
-## 📂 Repository Structure
-
-```bash
-├── images/                     # Architecture and pipeline screenshots
-├── notebooks/                  # Databricks notebooks for transformations
-├── pipelines/                  # ADF and Synapse pipeline screenshots
-├── powerbi/                    # Power BI dashboard images
-├── README.md                   # Project documentation
+## 📧 Contact
+For questions or collaboration, please reach out:  
+- **Email**: [deep19698@gmail.com](mailto:your-email@example.com)  
+- **GitHub**: [https://github.com/dsp196](https://github.com/your-profile)  
+- **LinkedIn**: [https://www.linkedin.com/in/deeppatel196/](https://linkedin.com/in/your-profile) 
