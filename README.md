@@ -63,21 +63,26 @@ This project follows the **Lakehouse Architecture** using data from multiple For
 
 ## 📊 Power BI Dashboard Pages
 Below are individual pages from the Power BI dashboard, each focusing on specific insights:
+---
+1. **Driver Championship Overview**
 
-1. **Driver Performance Overview**  
-   ![Driver Performance](images/powerbi_driver_performance.png)
+   ![Driver Championship](assets/Driver%20Championship.jpg)
+---
+3. **Constructor Championsip Overview**  
 
-2. **Constructor Analysis**  
-   ![Constructor Analysis](images/powerbi_constructor_analysis.png)
+   ![Constructor Championship](assets/Constructor%20Championship.jpg)
+---
+4. **Circuit Analysis**  
 
-3. **Circuit Insights**  
-   ![Circuit Insights](images/powerbi_circuit_insights.png)
+   ![Circuit Analysis](assets/Circuit%20Analysis.jpg)
+---
+5. **Pitstop Analysis**  
 
-4. **Seasonal Trends**  
-   ![Seasonal Trends](images/powerbi_seasonal_trends.png)
+   ![Pitstop Analysis](assets/Pit%20Stop%20Analysis.jpg)
+---
+6. **Qualifying Overview**  
 
-5. **Pit Stop Efficiency**  
-   ![Pit Stop Efficiency](images/powerbi_pitstop_efficiency.png)
+   ![Qualifying Analysis](assets/Qualifying.png)
 
 Feel free to explore each page’s specific metrics and KPIs.
 
