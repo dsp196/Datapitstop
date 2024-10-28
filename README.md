@@ -75,10 +75,11 @@ This project follows the **Lakehouse Architecture** using data from multiple For
      - Creating driver-constructor **performance metrics per circuit**.
 
 3. **Data Aggregation and Curation**  
-   - Synapse Analytics aggregates data into **seasonal standings** and **circuit insights** for dashboards:
+   - Databricks performs further transformations and creates curated dataset that is loaded in Synapse Analytics for dashboards:
      - Aggregates **top drivers and constructors per season**.
      - Computes **qualifying vs race performance metrics**.
      - Provides **circuit-level incident insights** and **pit stop efficiency** analysis.
+     - Gold layer data is then queried in syanpse analytics and views are created that are loaded in Power BI for dashboarding.
 
 4. **Dashboard Creation and Reporting**  
    - Power BI dashboards connect to Synapse Analytics for **real-time updates**.
