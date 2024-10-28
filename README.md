@@ -95,8 +95,6 @@ This project follows the **Lakehouse Architecture** using data from multiple For
 ### Azure Data Factory Pipeline
 ![ADF Pipeline](assets/Data%20Factory%20Pipeline.png)
 
-### Azure Synapse Analytics Pipeline
-![Synapse Pipeline](assets/Synapse%20Analytics%20Pipeline.png)
 
 ---
 
