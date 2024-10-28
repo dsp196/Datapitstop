@@ -27,6 +27,23 @@ This project follows the **Lakehouse Architecture** using data from multiple For
 
 ## 🏗️ Architecture
 
+### Lakehouse Architecture Workflow
+- **Bronze Layer**:  
+   - Stores raw, unmodified data for reference and troubleshooting.  
+   - Ingests race results, qualifying times, pit stop data, and driver standings via ADF.  
+   - **Use Case**: Ensures data reprocessing if transformations fail.
+
+- **Silver Layer**:  
+   - Uses **Databricks** to clean, standardize, and enrich the raw data.  
+   - Key transformations include:
+     - Handling missing values and outliers.
+     - Calculating qualifying lap time differences (Q1 to Q3).
+     - Integrating driver, constructor, and circuit data for deeper insights.
+
+- **Gold Layer**:  
+   - Stores optimized data in **Azure Synapse Analytics** for real-time queries.  
+   - Creates views and aggregated tables for Power BI dashboards.
+
 ![Architecture Overview](assets/building-data-pipelines-with-delta-lake-120823%20(1).png)
 
 ---
@@ -44,10 +61,33 @@ This project follows the **Lakehouse Architecture** using data from multiple For
 
 ## 🔄 Pipelines and Workflow
 
-1. **Data Ingestion**: Ingest raw data into the **Bronze Layer** using ADF.
-2. **Data Transformation**: Databricks handles data cleaning for the **Silver Layer**.
-3. **Data Curation**: Curated data is stored in **Synapse Analytics (Gold Layer)**.
-4. **Dashboarding**: Power BI connects to Synapse for live reporting and visualizations.
+1. **Data Ingestion**  
+   - **ADF** pipelines load raw data from on-premise SQL Server to ADLS Gen2 (Bronze Layer).
+   - Data ingested includes:
+     - **Race results**  
+     - **Driver and Constructor Standings**  
+     - **Qualifying session data**  
+     - **Pit stop logs and circuit data**
+
+2. **Data Transformation and Cleaning**  
+   - **Databricks** transforms Silver Layer data by:
+     - **Standardizing column formats** (dates, time).
+     - **Calculating lap time differences** and pit stop efficiency.
+     - Creating driver-constructor **performance metrics per circuit**.
+
+3. **Data Aggregation and Curation**  
+   - Synapse Analytics aggregates data into **seasonal standings** and **circuit insights** for dashboards:
+     - Aggregates **top drivers and constructors per season**.
+     - Computes **qualifying vs race performance metrics**.
+     - Provides **circuit-level incident insights** and **pit stop efficiency** analysis.
+
+4. **Dashboard Creation and Reporting**  
+   - Power BI dashboards connect to Synapse Analytics for **real-time updates**.
+   - Automated **ADF workflows** ensure dashboards are always up-to-date.
+
+5. **Security and Integration**  
+   - **Service principals** allow secure access between **Databricks** and **Data Lake Gen2**.  
+   - **Azure Key Vault** manages credentials to ensure compliance and security.
 
 ---
 
