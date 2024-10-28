@@ -27,7 +27,7 @@ This project follows the **Lakehouse Architecture** using data from multiple For
 
 ## 🏗️ Architecture
 
-![Architecture Overview](images/architecture_overview.png)
+![Architecture Overview](assets/building-data-pipelines-with-delta-lake-120823%20(1).png)
 
 ---
 
@@ -54,15 +54,14 @@ This project follows the **Lakehouse Architecture** using data from multiple For
 ## 🖼️ Screenshots
 
 ### Azure Data Factory Pipeline
-![ADF Pipeline](images/adf_pipeline.png)
+![ADF Pipeline](assets/Data%20Factory%20Pipeline.png)
 
 ### Azure Synapse Analytics Pipeline
-![Synapse Pipeline](images/synapse_pipeline.png)
+![Synapse Pipeline](assets/Synapse%20Analytics%20Pipeline.png)
 
 ---
 
 ## 📊 Power BI Dashboard Pages
-
 Below are individual pages from the Power BI dashboard, each focusing on specific insights:
 
 1. **Driver Performance Overview**  
