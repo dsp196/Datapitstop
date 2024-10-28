@@ -45,6 +45,8 @@ This project follows the **Lakehouse Architecture** using data from multiple For
 
 ![Architecture Overview](assets/building-data-pipelines-with-delta-lake-120823%20(1).png)
 
+( *image source*- https://www.databricks.com/sites/default/files/inline-images/building-data-pipelines-with-delta-lake-120823.png?v=1702318922)
+
 ---
 
 ## ⚙️ Key Tools and Technologies
