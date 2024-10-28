@@ -90,11 +90,11 @@ Feel free to explore each page’s specific metrics and KPIs.
 
 ## 🎥 Video Presentation
 
-*Coming Soon...*
+Click the image below to view the video
 
-Once available, a detailed walkthrough video will be embedded here for a better understanding of the project.
+[![Project Walkthrough](assets/Thumbnail.jpg)](https://github.com/dsp196/Datapitstop/raw/refs/heads/main/assets/Updated_dashboard_video%20-%20Made%20with%20Clipchamp.mp4)
 
----
+
 
 ## 📂 Repository Structure
 
