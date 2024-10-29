@@ -19,7 +19,7 @@ This project follows the **Lakehouse Architecture** using data from multiple For
 
 1. **Bronze Layer**: Ingest raw data from **on-premise SQL Server** to Azure Data Lake Gen 2 using **Azure Data Factory (ADF)**.
 2. **Silver Layer**: Clean and transform the data using **Azure Databricks** (Apache Spark).
-3. **Gold Layer**: Store fully transformed data in **Azure Synapse Analytics** for reporting.
+3. **Gold Layer**: Store fully transformed data that is later queried in **Azure Synapse Analytics** for reporting.
 
 ---
 
@@ -38,8 +38,9 @@ This project follows the **Lakehouse Architecture** using data from multiple For
      - Calculating qualifying lap time differences (Q1 to Q3).
      - Integrating driver, constructor, and circuit data for deeper insights.
 
-- **Gold Layer**:  
-   - Stores optimized data in **Azure Synapse Analytics** for real-time queries.  
+- **Gold Layer**:
+   - Silver Layer is further transformed creating final aggregates used for dashboarding.
+   - Transformed data is queried in **Azure Synapse Analytics**.  
    - Creates views and aggregated tables for Power BI dashboards.
 
 ![Architecture Overview](assets/building-data-pipelines-with-delta-lake-120823%20(1).png)
@@ -52,7 +53,7 @@ This project follows the **Lakehouse Architecture** using data from multiple For
 
 - **Azure Data Factory (ADF)**: Orchestrates pipelines, automating data ingestion and transformation.
 - **Azure Databricks**: Processes large datasets using Spark.
-- **Azure Synapse Analytics**: Stores curated data for analysis.
+- **Azure Synapse Analytics**: Stores and queries curated data for analysis.
 - **Azure Data Lake Gen2**: Secure storage for all data layers.
 - **Azure Key Vault**: Manages credentials and service principals securely.
 - **Power BI**: Creates interactive reports from transformed data.
@@ -80,7 +81,7 @@ This project follows the **Lakehouse Architecture** using data from multiple For
      - Aggregates **top drivers and constructors per season**.
      - Computes **qualifying vs race performance metrics**.
      - Provides **circuit-level incident insights** and **pit stop efficiency** analysis.
-     - Gold layer data is then queried in syanpse analytics and views are created that are loaded in Power BI for dashboarding.
+     - Gold layer data is then queried in synapse analytics and views are created that are loaded in Power BI for dashboarding.
 
 4. **Dashboard Creation and Reporting**  
    - Power BI dashboards connect to Synapse Analytics for **real-time updates**.
@@ -127,7 +128,6 @@ Below are individual pages from the Power BI dashboard, each focusing on specifi
 
 https://github.com/user-attachments/assets/f17d5faa-2eeb-40aa-966d-ab8a991f2f4d
 
-Feel free to explore each page’s specific metrics and KPIs.
 
 ---
 
