@@ -108,22 +108,22 @@ Below are individual pages from the Power BI dashboard, each focusing on specifi
    [![Driver Championship](assets/Driver%20Championship.jpg)](https://github.com/user-attachments/assets/ca194a61-edc1-4c0a-be77-d97e0aa1b91a
 )
 ---
-3. **Constructor Championsip Overview**  
+2. **Constructor Championsip Overview**  
 
    [![Constructor Championship](assets/Constructor%20Championship.jpg)](https://github.com/user-attachments/assets/438e1353-a5a5-48b0-8ccc-da8ab5f002ec
 )
 ---
-4. **Circuit Analysis**  
+3. **Circuit Analysis**  
 
    [![Circuit Analysis](assets/Circuit%20Analysis.jpg)](https://github.com/user-attachments/assets/9f385803-1700-4da2-9fb6-49b9f95b6b23
 )
 ---
-5. **Pitstop Analysis**  
+4. **Pitstop Analysis**  
 
    [![Pitstop Analysis](assets/Pit%20Stop%20Analysis.jpg)](https://github.com/user-attachments/assets/b0c7da84-4bed-4dfd-a732-617c5b4d17b0
 )
 ---
-6. **Qualifying Overview**  
+5. **Qualifying Overview**  
 
 https://github.com/user-attachments/assets/f17d5faa-2eeb-40aa-966d-ab8a991f2f4d
 
