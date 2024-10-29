@@ -9,7 +9,6 @@ This project demonstrates a complete **ETL workflow using Lakehouse Architecture
 - [🔄 Pipelines and Workflow](#-pipelines-and-workflow)
 - [🖼️ Screenshots](#️-screenshots)
   - [📊 Power BI Dashboard Pages](#️-power-bi-dashboard-pages)
-- [🎥 Video Presentation](#-video-presentation)
 - [📧 Contact](#-contact)
 
 ---
@@ -116,25 +115,22 @@ Below are individual pages from the Power BI dashboard, each focusing on specifi
 ---
 4. **Circuit Analysis**  
 
-   ![Circuit Analysis](assets/Circuit%20Analysis.jpg)
+   [![Circuit Analysis](assets/Circuit%20Analysis.jpg)](https://github.com/user-attachments/assets/9f385803-1700-4da2-9fb6-49b9f95b6b23
+)
 ---
 5. **Pitstop Analysis**  
 
-   ![Pitstop Analysis](assets/Pit%20Stop%20Analysis.jpg)
+   [![Pitstop Analysis](assets/Pit%20Stop%20Analysis.jpg)](https://github.com/user-attachments/assets/b0c7da84-4bed-4dfd-a732-617c5b4d17b0
+)
 ---
 6. **Qualifying Overview**  
 
-   ![Qualifying Analysis](assets/Qualifying.png)
+https://github.com/user-attachments/assets/f17d5faa-2eeb-40aa-966d-ab8a991f2f4d
 
 Feel free to explore each page’s specific metrics and KPIs.
 
 ---
 
-## 🎥 Video Presentation
-
-Click the image below to view or download the video
-
-[![Project Walkthrough](assets/Thumbnail.jpg)](https://github.com/dsp196/Datapitstop/raw/refs/heads/main/assets/Updated_dashboard_video%20-%20Made%20with%20Clipchamp.mp4)
 
 
 ## 📧 Contact
